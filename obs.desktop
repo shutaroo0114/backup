@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=OBS Studio
+Comment=Open Broadcaster Software
+Exec=obs
+Icon=obs
+Terminal=false
+Type=Application
+Categories=AudioVideo;Recorder;

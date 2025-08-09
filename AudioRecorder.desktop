@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=画面音声録音アプリ
+Comment=画面上の音声を録音する簡単アプリ
+Exec=python3 /home/shutaroo/デスクトップ/audio_recorder.py
+Icon=multimedia-recording
+Terminal=false
+Type=Application
+Categories=Audio;

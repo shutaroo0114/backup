@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Generate Tiles
+Comment=Run Stable Diffusion tile generation script
+Exec=python3 /home/shutaroo/generate_tiles.py
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

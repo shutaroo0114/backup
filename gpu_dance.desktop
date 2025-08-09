@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ダンスGPUキャプチャー
+Comment=GTX1060 + GTX1650 分散処理
+Exec=/home/shutaroo/デスクトップ/dance_analysis/.venv/bin/python /home/shutaroo/デスクトップ/dance_analysis/gpu_dance_gui.py
+
+Icon=video
+Terminal=true
+Type=Application
+Categories=Utility;

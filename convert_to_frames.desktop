@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Convert Video to Frames
+Comment=Drag and drop video file(s) here to extract frames
+Exec=/home/shutaroo/convert_to_frames.sh %F
+Icon=ffmpeg
+Terminal=true
+Type=Application
+Categories=Utility;

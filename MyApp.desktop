@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=My PyQt App
+Comment=これはPyQtで作ったアプリです
+Exec=python3 /home/shutaroo/デスクトップ/my_app.py
+Icon=utilities-terminal
+Terminal=false
+Categories=Utility;

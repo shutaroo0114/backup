@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Run Batch Pose
+Comment=Run the dance analysis script in virtual environment
+Exec=/home/shutaroo/デスクトップ/dance_analysis/run_batch_pose.sh
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Stable Diffusion GUI
+Comment=Run Stable Diffusion GUI Python script
+Exec=python3 /home/shutaroo/美少女generate_tiles_gui.py
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;

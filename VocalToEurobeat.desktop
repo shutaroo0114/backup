@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Vocal to Eurobeat
+Comment=音声をユーロビート風に変換するプログラム
+Exec=python3 /home/shutaroo/デスクトップ/AI音声抽出/vocal_to_eurobeat_gui.py
+Icon=audio-x-generic
+Terminal=false
+Type=Application
+Categories=Utility;Audio;

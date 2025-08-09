@@ -1,0 +1,31 @@
+def warn_user(username, reason):
+    flags = load_flags()
+    now = datetime.now().isoformat(timespec='seconds')
+
+    if username not in flags:
+        # 新規ユーザなら初期化
+        flags[username] = {
+            "count": 0,
+            "last_warning": None,
+            "reasons": []
+        }
+    else:
+        # 既存ユーザの場合、reasonsキーがなければ追加
+        if "reasons" not in flags[username]:
+            flags[username]["reasons"] = []
+
+    flags[username]["count"] += 1
+    flags[username]["last_warning"] = now
+    flags[username]["reasons"].append({
+        "time": now,
+        "reason": reason
+    })
+
+    print(f"{username}さんの警告回数: {flags[username]['count']} (最終警告: {flags[username]['last_warning']})")
+
+    if flags[username]["count"] >= 3:
+        print(f"{username}さんはNG対象です。")
+    else:
+        print(f"{username}さんはまだ大丈夫です。")
+
+    save_flags(flags)

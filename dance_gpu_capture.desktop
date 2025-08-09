@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ダンスGPUキャプチャー
+Comment=GTX1060 + GTX1650 分散処理で動画解析を起動
+Exec=/home/shutaroo/デスクトップ/dance_analysis/.venv/bin/python /home/shutaroo/デスクトップ/dance_analysis/gpu_dance_gui.py
+Icon=video
+Terminal=false
+Type=Application
+Categories=Utility;

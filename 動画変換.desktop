@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=動画変換
+Comment=動画を画像に変換します
+Exec=/home/shutaroo/convert_to_frames.sh %F
+Icon=video-x-generic
+Terminal=true
+Type=Application
+MimeType=video/x-matroska;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MKV → MP4 変換
+Comment=MKV動画をMP4に変換
+Exec=/home/shutaroo/デスクトップ/dance_analysis/.venv/bin/python /home/shutaroo/デスクトップ/mkv_to_mp4_gui.py
+Icon=video
+Terminal=false
+Type=Application
+Categories=Utility;
+
