@@ -1,1 +1,1 @@
-dance_analysis/openpose/
+git rm -r --cached dance_analysis/openpose
