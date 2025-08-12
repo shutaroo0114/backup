@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LoRA Models Folder
+Comment=Open LoRA models folder
+Exec=xdg-open /home/shutaroo/stable-diffusion-webui/models/Lora
+Icon=folder
+Terminal=false

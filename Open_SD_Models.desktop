@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SD Models Folder
+Comment=Open Stable Diffusion checkpoint folder
+Exec=xdg-open /home/shutaroo/stable-diffusion-webui/models/Stable-diffusion
+Icon=folder
+Terminal=false
+

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Stable Diffusion WebUI
+Comment=Launch Stable Diffusion WebUI
+Exec=bash -c 'cd /home/shutaroo/stable-diffusion-webui && ./webui.sh'
+Icon=utilities-terminal
+Terminal=true
+Categories=Utility;
